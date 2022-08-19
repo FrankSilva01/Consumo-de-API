@@ -1,6 +1,4 @@
 
-
-
     let endereco = document.getElementById('valorCep').value;
     
     function buscarCep(){
@@ -13,5 +11,3 @@
       })
       .catch((error) => console.error('Erro:', error.message || error))
     }
-
-
