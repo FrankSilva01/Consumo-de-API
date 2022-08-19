@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700;900&family=Roboto:wght@300;500;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+    width: 1800px;
+    background: rgba(148, 184, 196, 0.835);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 5px; 
+    top: -80px;
+}
+
+#container {
+    background: #fff;
+    border-radius: 50px;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    left: 800px;
+    top: 200px;
+}
+
+#cep {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    position: relative;
+    /* left: 900px;
+    top: 500px; */
+}
+
+#cep button {
+    font-weight: 900;
+    font-family: 'roboto';
+    background: rgba(55, 115, 136, 0.317);
+    width: 100px;
+    border-radius: 80px;
+    position: relative;
+    left: 130px;
+    bottom: -100px;
+}
+
+#cep input {
+    position: relative;
+    text-align: center;
+    bottom: -100px;
+    left: 120px;
+    border-radius: 80px;
+}
+
+#endereço {
+    font-weight: 900;
+    position: relative;
+    right: -95px;
+    bottom: -108px;
+}
+
+#resultado {
+        width: 490px;
+        font-size: 16px;
+        text-align: center;
+        display: flex;
+        position: relative;
+        left: 2px; 
+        top: 100px;
+}
